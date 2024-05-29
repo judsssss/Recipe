@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="shortcut icon" type="p-Logo" href="img/logo.png">
-    <title>Panlasang Pinoy</title>
+    <title>PanlasangPinoy</title>
     <script src="script.js"></script>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -17,11 +17,11 @@
         <div class="toggleMenu" onclick="toggleMenu();"></div>
         <nav class="navigation row">
             <ul class="primary-links row">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Recipes</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">About Us</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#recipes">Recipes</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#about">About Us</a></li>
             </ul>
             <ul class="secondary-links row">
                 <li>
@@ -49,7 +49,7 @@
         </nav>
     </header>
     <!--end Nav-->
-    <section class="hero">
+    <section class="hero" id="home">
         <div class="container row">
             <div class="hero-content">
                 <div class="content">
@@ -85,7 +85,7 @@
     </section>
 
     <!--End category section-->
-    <section class="category container">
+    <section class="category container" id="recipes">
         <div class="category-title row">
             <h2>Categories</h2>
             <a href="#" class="category-btn">View all Categories</a>
@@ -255,7 +255,7 @@
     <!--recipe end-->
 
     <!--learn-->
-    <section class="learn row container">
+    <section class="learn row container" id="blog">
         <div class="learn-content">
             <h2>Empowering Every Home: Where Everyone is the Chef of Their Own Culinary Journey!</h2>
             <p>Unleash your inner chef and embark on a culinary adventure in your own kitchen! Dive into new flavors, experiment with ingredients, and craft dishes that reflect your unique taste and style. Become an explorer of flavors, and let your creativity soar as you discover the endless possibilities of home cooking.</p>
@@ -264,7 +264,7 @@
         <div class="learn-img row"><img src="img/ramsay.jpg" alt="ramsay"></div>
     </section>
     <!--learn end-->
-    <section class="instagram">
+    <section class="instagram" id="about">
         <div class="container">
             <div class="section-title">
                 <h2>Visit our instagram page: @panlasangpinoy</h2>
@@ -301,7 +301,7 @@
     </section>
     <!--End subscribe-->
 
-    <footer class = "container">
+    <footer class = "container" id="contact">
         <div class="footer-content row">
             <div>
                 <a href="#" class="logo"><i class="material-icons">local_dining</i>PanlansangPinoy
@@ -313,7 +313,7 @@
                 <li><a href="#">Recipes</a></li>
                 <li><a href="#">Blog</a></li>
                 <li><a href="#">Contact</a></li>
-                <li><a href="#">About Us</a></li>
+                <li><a href="#about">About Us</a></li>
             </ul>
         </div>
         <hr>
